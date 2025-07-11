@@ -3,7 +3,6 @@ const path = require('path');
 
 //const GEMINI_API_KEY = ""; // H.H
 
-
 const config = {
   PORT: process.env.PORT || 3000,
   FACEBOOK_VERIFY_TOKEN: process.env.FACEBOOK_VERIFY_TOKEN || 'hashia',
