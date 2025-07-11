@@ -1,28 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const GEMINI_API_KEY = "AIzaSyA2nEFREy9OtlOqMTE5vUuZKEKQu3c_1vA"; // H.H
-
-//const GEMINI_API_KEY = "AIzaSyAcsXMZg4Ja3zvPd9dZ2q1DgV5ghqTsQSU"; //H.H
-
-//const GEMINI_API_KEY = "AIzaSyB15pJMnM101ANdiVTYCO2hYlmCKFVAMtk"; // D.A
-
-//const GEMINI_API_KEY = "AIzaSyAbXt7uiQVKagbKld7UW3igD1F4grqzHlc"; // C.O.PH
-
-//const GEMINI_API_KEY = "AIzaSyDH0vYnZq40BBSgHl5wZ9MYpFqYYeeIFXo"; //B.H
-
-//const GEMINI_API_KEY = "AIzaSyAgIjSSoc5lrnTSDiDIQYi4dLaoA4Ya61E"; // W.SSH
-
-//const GEMINI_API_KEY = "AIzaSyAZlTjLEcVk_drJVS_c9L9L0Fd_QJEXMQo"; // W.JS
-
-//const GEMINI_API_KEY = "AIzaSyDPGmm4f3GbnEzkF7umuDk14ctZLGp38ec"; // C.C.O.PH
+//const GEMINI_API_KEY = ""; // H.H
 
 
 const config = {
   PORT: process.env.PORT || 3000,
   FACEBOOK_VERIFY_TOKEN: process.env.FACEBOOK_VERIFY_TOKEN || 'hashia',
   FACEBOOK_PAGE_ACCESS_TOKEN: process.env.FACEBOOK_PAGE_ACCESS_TOKEN || "", // Your actual token here
-  GEMINI_API_KEY: GEMINI_API_KEY,
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY,
   GRAPH_API_URL: 'https://graph.facebook.com/v22.0'
 };
 
